@@ -123,7 +123,7 @@ export default {
 
       //Array.prototype.push.apply(this.items, this.subItems);
       //console.log(this.items);
-      /localStorage.setItem("storeUT", JSON.stringify(this.items));/
+      localStorage.setItem("storeUT", JSON.stringify(this.items));
       this.product.amount=this.amount;
       this.viewProduct(this.product);
       //this.total += this.product.price * this.amount;
